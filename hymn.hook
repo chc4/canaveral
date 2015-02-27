@@ -1,0 +1,34 @@
+/?    314
+/=    gas  /$  fuel
+//    /%%/lib
+::
+!:
+=+  ^=  arg
+  %+  slav
+    %ud
+  %+  fall
+    %-  ~(get by qix.gas)  %number
+  '0'
+::
+^-  manx
+;html
+  ;head
+    ;meta(charset "utf-8");
+    ;link(rel "stylesheet", type "text/css", href "style.css");
+    ;title: Cape Canaveral
+  ==
+  ;body
+    ;br;
+    ;br;
+    ;br;
+    ;div
+      ;h1: Welcome to Mars
+      ;*  %+  turn
+            tags
+          |=  a=_talk
+            ;ul(class "submenu")
+              ;*  (list-cont a)
+            ==
+    ==
+  ==
+==
