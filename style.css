@@ -1,0 +1,53 @@
+body
+{
+    font-family: "DejaVu Sans";
+    font-size: 20;
+    color: #BBCCDD;
+    background-color: #222;
+          text-shadow: 5px 3px 12px #000;
+}
+h1
+{
+    text-align: center;
+    font-size: 30;
+    margin: 16px;
+        color: #dedede;
+}
+a
+{
+    text-decoration: none;
+    margin: 6px;
+        font-size: 18px;
+}
+a:link, a:visited
+{
+    color: #bbccdd;
+}
+a:hover, a:active
+{
+    color: #4194d9;
+        text-align: right;
+}
+a.split
+{
+        color: #60aae6;
+}
+a.category:hover, a.category:active
+{
+        color: #6d878d;
+}
+ul
+{
+        display: inline;
+}
+ul.submenu
+{
+        width: 75%;
+        display: block;
+}
+li
+{
+        display: inline;
+        position: relative;
+        left: 25%;
+}
