@@ -26,19 +26,20 @@ a:link, a:visited
 a:hover, a:active
 {
     color: #4194d9;
-        text-align: right;
+    text-align: right;
 }
-a.split
+div
+{
+    display: inline;
+    margin: 6px;
+}
+div.split
 {
         color: #60aae6;
 }
-a.category:hover, a.category:active
+div.category:hover, div.category:active
 {
         color: #6d878d;
-}
-ul
-{
-        display: inline;
 }
 ul.submenu
 {

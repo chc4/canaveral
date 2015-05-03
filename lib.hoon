@@ -21,11 +21,19 @@
    :-  'Tech'
     %-  limo
     :~  ['GitHub' 'https://github.com/']
-        ['HackerNews' 'https://news.ycombinator.com/']
         ['/g/' 'http://boards.4chan.org/g/']
-        ['ArsTechnica' 'http://arstechnica.com/']
+        [':talk' 'http://localhost:8080/~~/home/pub/talk/fab/']
         ['Urbit' 'https://github.com/urbit/urbit']
         ['Hoon' 'http://localhost:8080/gen/docs/tree/doc/hoon']
+        == 
+++  news
+   :-  'News'
+    %-  limo
+    :~  ['HackerNews' 'https://news.ycombinator.com/']
+        ['ArsTechnica' 'https://arstechnica.com/']
+        ['Motherboard' 'https://motherboard.vice.com/']
+        ['TheVerge' 'https://www.theverge.com']
+        ['Wired' 'http://wired.com']
         == 
 ++  social
    :-  'Social'
@@ -37,16 +45,16 @@
         ['Sprunge' 'http://sprunge.us/']
         ==
 ++  tags
-    `(list ,[@t (list ,[@t @t])])`(limo ~[talk media tech social])
+    `(list ,[@t (list ,[@t @t])])`(limo ~[talk media tech news social])
 ++  list-cont
   |=  tag=[@t (list ,[@t @t])]
   =+  split=~~~2217.
   ^-  (list manx)
   :-  ;li
-      ;a(class "category"): {(trip &1.tag)}
+      ;div(class "category"): {(trip &1.tag)}
     ==
   :-  ;li
-      ;a(class "split"): {(trip split)}
+      ;div(class "split"): {(trip split)}
     ==
   %+  turn
     +.tag
