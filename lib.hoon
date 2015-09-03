@@ -23,16 +23,16 @@
     :~  ['GitHub' 'https://github.com/']
         ['/g/' 'http://boards.4chan.org/g/']
         [':talk' 'http://localhost:8080/~~/home/pub/talk/fab/']
-        ['Urbit' 'https://github.com/urbit/urbit']
-        ['Hoon' 'http://localhost:8080/gen/docs/tree/doc/hoon']
-        == 
+        ['Urbit' 'https://groups.google.com/forum/#!forum/urbit-dev']
+        ['Hoon' 'http://localhost:8080/home/tree/pub/doc/hoon']
+        ==
 ++  news
    :-  'News'
     %-  limo
     :~  ['HackerNews' 'https://news.ycombinator.com/']
         ['ArsTechnica' 'https://arstechnica.com/']
         ['Motherboard' 'https://motherboard.vice.com/']
-        ['TheVerge' 'https://www.theverge.com']
+        ['GNews' 'https://news.google.com']
         ['Wired' 'http://wired.com']
         == 
 ++  social
