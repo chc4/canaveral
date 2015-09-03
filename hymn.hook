@@ -21,6 +21,7 @@
     ;br;
     ;br;
     ;br;
+    ;div(class "time"):"~00.00.00"
     ;div
       ;h1: Welcome to Mars
       ;*  %+  turn
@@ -30,5 +31,6 @@
               ;*  (list-cont a)
             ==
     ==
+    ;script(src "time.js");
   ==
 ==

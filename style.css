@@ -33,6 +33,11 @@ div
     display: inline;
     margin: 6px;
 }
+div.time {
+    position: absolute;
+    right: 10;
+    bottom: 10;
+}
 div.split
 {
         color: #60aae6;
